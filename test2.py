@@ -29,3 +29,4 @@ def download_image(image_url:str, image_name:str,folder:str):
         raise Exception("extension not found")
     if os.path.isfile(name):
         raise ValueError("this path already exist")
+ewtg
